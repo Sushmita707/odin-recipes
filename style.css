@@ -1,15 +1,34 @@
-body{
-    margin :0;
-    background-color: rgb(173, 226, 226);
-}
-.footer
-{
-    padding:20px;
-    background-color: rgb(212, 195, 195);
-    color: aliceblue;
-}
-.main
-{
+.main{
+    background-color: rgb(141, 123, 104);
     padding: 20px;
-    background-color: rgb(82, 173, 140);
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
+    .ingredients {
+        background-color: rgb(164, 144, 124);
+        padding: 20px;
+        margin-top: 30px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+
+      .steps {
+        background-color: rgb(200, 182, 166);
+        border: 1px solid #333;
+        padding: 10px;
+        color: #333;
+      }
+      
+
+
+      .footer {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
