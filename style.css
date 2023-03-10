@@ -38,4 +38,14 @@
       h3{
         font-family: 'Montserrat', sans-serif;
       }
+      .back-button {
+        display: inline-block;
+        background-color: grey;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
     
